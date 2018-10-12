@@ -8,11 +8,7 @@ class Vehicle
   def initialize(wheel_size, wheel_number)
     @wheel_size = wheel_size
     @wheel_number = wheel_number
-    @@all << self 
-  end 
-  
-  def self.all 
-    @@all
+    @@all << self
   end 
   
   def go 
@@ -23,5 +19,8 @@ class Vehicle
     'filling up!'
   end 
   
+  def self.all 
+    @@all
+  end 
   
 end 
