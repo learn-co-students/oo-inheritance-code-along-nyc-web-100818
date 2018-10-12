@@ -2,8 +2,13 @@ require_relative "./vehicle.rb"
 
 class Car < Vehicle
 
+  def go
+    "VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!"
+  end
+
 end
 
+########### Nice reminder to do the associated reading :)
 # class Car
 #
 #   attr_accessor :wheel_size, :number, :wheel_number
